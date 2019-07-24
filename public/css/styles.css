@@ -18,16 +18,17 @@ body {
 	font-size: 1.25em;
 }
 
+img {
+	border-radius: 8px;
+	border: 1px solid white;
+}
+
 nav, header {
 	background: #041630;
 }
 
 a {
 	color: white;
-}
-
-img {
-	border-style: bold;
 }
 
 
@@ -67,8 +68,6 @@ nav {
 			text-decoration: none;
 		}
 
-
-
 /* Main content */
 main {
 	padding-left: 10%;
@@ -77,11 +76,13 @@ main {
 }
 
 figure {
+	background-color:#152741;
+	border-radius: 16px;
+	border: 1px solid black;
 	text-align: center;
 	font-style: italic;
-	font-size: .8em;
+	font-size: .9em;
 }
-
 
 /* Footer */
 footer {
